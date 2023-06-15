@@ -1,0 +1,16 @@
+    // Create a function 
+    const checkPalindrome = () => {
+
+    // Declare a variable with the length of the string.
+    let l =str.length;
+
+    // Declare a for loop, using half of the length of the string as a reference point.
+    for (let i = 0; i < 1/2; i++) {
+    
+// Check if each letter is the same as its mirror equivalent — or, a character on the other side (measured with index — 1).
+        if (str[i] !== str[l -1-1]) {
+            return false;
+        }
+        return true;
+    }
+}
